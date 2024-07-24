@@ -45,7 +45,7 @@ int main(int argc, char* argv[]) {
 
     // Coordenadas para el texto ingresado por el usuario
     int text_x = (max_x - COL) / 2 + 4; 
-    int text_y = (max_y - FILA) / 2 - 5;          
+    int text_y = (max_y - FILA) / 2 - 3;          
 
     // Verificar si la terminal soporta colores
     if (has_colors()) {
